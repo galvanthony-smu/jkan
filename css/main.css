@@ -1,3 +1,37 @@
+/* SMU Color Palette */
+:root {
+  --smu-primary-blue: #354CA1;
+  --smu-primary-red: #CC0035;
+  --smu-secondary-yellow: #F9C80E;
+  --smu-secondary-pink: #FF1053;
+  --smu-secondary-teal: #59C3C3;
+  --smu-dark-gray: #262626;
+}
+
+/* Bootstrap color overrides */
+.btn-primary {
+  background-color: var(--smu-primary-blue);
+  border-color: var(--smu-primary-blue);
+}
+
+.btn-primary:hover {
+  background-color: #2a3a80;
+  border-color: #2a3a80;
+}
+
+a {
+  color: var(--smu-primary-blue);
+}
+
+a:hover {
+  color: #2a3a80;
+}
+
+.nav-link.active {
+  color: var(--smu-primary-blue);
+  border-bottom: 2px solid var(--smu-primary-blue);
+}
+
 input[data-hook=search-query] {
   display: none;
 }
@@ -62,7 +96,7 @@ dataset {
 }
 
 .card-grid .card-grid-item:hover {
-  background-color: #abccfb;
+  background-color: rgba(53, 76, 161, 0.1);
 }
 
 .card-grid .card-grid-item {

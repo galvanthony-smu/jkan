@@ -1,7 +1,7 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
-logo: /img/jkan.png
+title: SMU Open Data Portal
+greeting: Welcome to SMU Open Data
+description: Southern Methodist University's open data portal - providing access to institutional data and public information.
+logo: /img/smu-logo.png
 hero_image: /img/homepage-hero.jpg
 strict_front_matter: true
 
